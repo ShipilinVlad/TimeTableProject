@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>424</width>
+    <height>216</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QCheckBox" name="replace_status">
+       <property name="text">
+        <string>Переносить обычные задачи на следующий день, если они не выполнены</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="start_notice_status">
+       <property name="text">
+        <string>Уведомление начала события</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="end_notice_status">
+       <property name="text">
+        <string>Уведомление окончания события</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="edit_ordinary">
+       <property name="text">
+        <string>Редактировать обычные задачи</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="edit_repeated">
+       <property name="text">
+        <string>Редактировать повторяющиеся задачи</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delete_ordinary">
+       <property name="text">
+        <string>Удалить обычную задачу</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delete_repeated">
+       <property name="text">
+        <string>Удалить повторяющуюся задачу</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
